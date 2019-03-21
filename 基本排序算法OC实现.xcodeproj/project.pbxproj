@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ABF91B0E22435897009D5D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF91B0D22435897009D5D50 /* main.m */; };
+		ABF91B1922435A60009D5D50 /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF91B1822435A60009D5D50 /* InsertSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		ABF91B0A22435897009D5D50 /* 基本排序算法OC实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基本排序算法OC实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF91B0D22435897009D5D50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF91B1722435A60009D5D50 /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		ABF91B1822435A60009D5D50 /* InsertSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ABF91B0D22435897009D5D50 /* main.m */,
+				ABF91B1722435A60009D5D50 /* InsertSort.h */,
+				ABF91B1822435A60009D5D50 /* InsertSort.m */,
 			);
 			path = "基本排序算法OC实现";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF91B1922435A60009D5D50 /* InsertSort.m in Sources */,
 				ABF91B0E22435897009D5D50 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +246,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				DEVELOPMENT_TEAM = P9D3NKT33P;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,7 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				DEVELOPMENT_TEAM = P9D3NKT33P;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
