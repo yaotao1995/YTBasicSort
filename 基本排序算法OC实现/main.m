@@ -14,13 +14,18 @@
 
 /** 插入排序 */
 #import "InsertSort.h"
+/** 冒泡排序 以及 鸡尾酒排序 */
+#import "BubbleSort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSMutableArray *array = [NSMutableArray arrayWithArray:@[@4,@2,@6,@1,@5]];
-        InsertSort *insert = [InsertSort new];
-        [insert insert_sort:array];
+//        InsertSort *insert = [InsertSort new];
+//        [insert insert_sort:array];
+        
+        BubbleSort *bubbleSort = [BubbleSort new];
+        [bubbleSort cocktail_sort:array];
         
     }
     return 0;
