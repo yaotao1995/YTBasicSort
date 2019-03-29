@@ -20,9 +20,11 @@
 
 @implementation InsertSort
 
-// 函数 insert_sort 接收 可变数组 list
-// replaceObjectAtIndex 函数是NSArray内的替换元素方法
+#pragma mark 插入排序 OC
 - (void)insert_sort:(NSMutableArray *)list{
+    
+    // 函数 insert_sort 接收 可变数组 list
+    // replaceObjectAtIndex 函数是NSArray内的替换元素方法
     
     //1. 循环传入的数组大小(第一个没必要排序，所以从下标1开始)
     for (int i = 1; i < [list count]; i++) {
@@ -44,19 +46,18 @@
     
 }
 
-
-//C语言
-//void insert_sort(int arr[], int len){
-//    int i,j,key;
-//    for (i=1;i<len;i++){
-//        key = arr[i];
-//        j=i-1;
-//        while((j>=0) && (arr[j]>key)) {
-//            arr[j+1] = arr[j];
-//            j--;
-//        }
-//        arr[j+1] = key;
-//    }
-//}
+#pragma mark 插入排序 C
+void insert_sort(int arr[], int len){
+    int i,j,key;
+    for (i=1;i<len;i++){
+        key = arr[i];
+        j=i-1;
+        while((j>=0) && (arr[j]>key)) {
+            arr[j+1] = arr[j];
+            j--;
+        }
+        arr[j+1] = key;
+    }
+}
 
 @end
