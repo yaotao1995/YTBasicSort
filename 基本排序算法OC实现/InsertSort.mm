@@ -21,7 +21,7 @@
 @implementation InsertSort
 
 #pragma mark 插入排序 OC
-- (void)insert_sort:(NSMutableArray *)list{
++ (void)insert_sort:(NSMutableArray *)list{
     
     // 函数 insert_sort 接收 可变数组 list
     // replaceObjectAtIndex 函数是NSArray内的替换元素方法

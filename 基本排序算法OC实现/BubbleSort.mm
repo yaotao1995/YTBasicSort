@@ -38,7 +38,7 @@
 @implementation BubbleSort
 
 #pragma mark 冒泡排序  OC
-- (void)bubble_sort:(NSMutableArray *)list{//接收一个可变数据list
++ (void)bubble_sort:(NSMutableArray *)list{//接收一个可变数据list
     //循环数组大小的次数 因为要走访要排序的数列
     for (int i = 0; i < list.count; i++) {
         //相应i下标位置开始位置需要对比的次数
@@ -73,7 +73,7 @@ void bubble_sort(int a[], int n)
 }
 
 #pragma mark 鸡尾酒排序
--(void)cocktail_sort:(NSMutableArray *)list{
++ (void)cocktail_sort:(NSMutableArray *)list{
     
     int i;
     int left = 0;

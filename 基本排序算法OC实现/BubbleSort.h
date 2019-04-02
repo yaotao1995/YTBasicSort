@@ -11,10 +11,10 @@
 @interface BubbleSort : NSObject
 
 //冒泡排序
-- (void)bubble_sort:(NSMutableArray *)list;
++ (void)bubble_sort:(NSMutableArray *)list;
 
 //鸡尾酒排序
--(void)cocktail_sort:(NSMutableArray *)list;
++ (void)cocktail_sort:(NSMutableArray *)list;
 
 @end
 

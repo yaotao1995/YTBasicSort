@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface InsertSort : NSObject
-- (void)insert_sort:(NSMutableArray *)list;
+
++ (void)insert_sort:(NSMutableArray *)list;
+
 @end
 

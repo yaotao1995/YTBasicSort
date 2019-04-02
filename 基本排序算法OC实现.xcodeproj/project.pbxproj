@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB1448E3224DF2EC00F2BCF3 /* BinarySearch.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB1448E2224DF2EC00F2BCF3 /* BinarySearch.mm */; };
+		AB45DD182251E9F700D7E2F1 /* Quicksort.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB45DD172251E9F700D7E2F1 /* Quicksort.mm */; };
 		AB8111542245EFE00061A640 /* BubbleSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB8111532245EFE00061A640 /* BubbleSort.mm */; };
 		ABF91B0E22435897009D5D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF91B0D22435897009D5D50 /* main.m */; };
 		ABF91B1922435A60009D5D50 /* InsertSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABF91B1822435A60009D5D50 /* InsertSort.mm */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		AB1448E1224DF2EC00F2BCF3 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		AB1448E2224DF2EC00F2BCF3 /* BinarySearch.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BinarySearch.mm; sourceTree = "<group>"; };
+		AB45DD162251E9F700D7E2F1 /* Quicksort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksort.h; sourceTree = "<group>"; };
+		AB45DD172251E9F700D7E2F1 /* Quicksort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Quicksort.mm; sourceTree = "<group>"; };
 		AB8111522245EFE00061A640 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		AB8111532245EFE00061A640 /* BubbleSort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BubbleSort.mm; sourceTree = "<group>"; };
 		ABF91B0A22435897009D5D50 /* 基本排序算法OC实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基本排序算法OC实现"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +84,8 @@
 				AB8111532245EFE00061A640 /* BubbleSort.mm */,
 				AB1448E1224DF2EC00F2BCF3 /* BinarySearch.h */,
 				AB1448E2224DF2EC00F2BCF3 /* BinarySearch.mm */,
+				AB45DD162251E9F700D7E2F1 /* Quicksort.h */,
+				AB45DD172251E9F700D7E2F1 /* Quicksort.mm */,
 			);
 			path = "基本排序算法OC实现";
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				AB1448E3224DF2EC00F2BCF3 /* BinarySearch.mm in Sources */,
 				ABF91B1922435A60009D5D50 /* InsertSort.mm in Sources */,
 				ABF91B0E22435897009D5D50 /* main.m in Sources */,
+				AB45DD182251E9F700D7E2F1 /* Quicksort.mm in Sources */,
 				AB8111542245EFE00061A640 /* BubbleSort.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
