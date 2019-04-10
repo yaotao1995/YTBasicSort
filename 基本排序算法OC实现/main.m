@@ -24,6 +24,9 @@
 /** 快排*/
 #import "Quicksort.h"
 
+/** 希尔排序 */
+#import "ShellSort.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -36,8 +39,10 @@ int main(int argc, const char * argv[]) {
 //        BinarySearch *binarySearch = [BinarySearch new];
 //        int recursiveNum = [binarySearch binarySearchRecursive:array withNum:4 start:0 end:4];
 //        int noRecursiveNum = [binarySearch binarySearchNoRecursive:array withNum:4];
+       
+//        [Quicksort quickSortWithArray:array withLeft:0 andRight:array.count - 1];
         
-        [Quicksort quickSortWithArray:array withLeft:0 andRight:array.count - 1];
+         [ShellSort shellSort:array];
 
     }
     return 0;

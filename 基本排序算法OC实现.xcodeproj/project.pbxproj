@@ -10,6 +10,7 @@
 		AB1448E3224DF2EC00F2BCF3 /* BinarySearch.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB1448E2224DF2EC00F2BCF3 /* BinarySearch.mm */; };
 		AB45DD182251E9F700D7E2F1 /* Quicksort.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB45DD172251E9F700D7E2F1 /* Quicksort.mm */; };
 		AB8111542245EFE00061A640 /* BubbleSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB8111532245EFE00061A640 /* BubbleSort.mm */; };
+		ABA7C844225B1E4D005EB645 /* ShellSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABA7C843225B1E4D005EB645 /* ShellSort.mm */; };
 		ABF91B0E22435897009D5D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF91B0D22435897009D5D50 /* main.m */; };
 		ABF91B1922435A60009D5D50 /* InsertSort.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABF91B1822435A60009D5D50 /* InsertSort.mm */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		AB45DD172251E9F700D7E2F1 /* Quicksort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Quicksort.mm; sourceTree = "<group>"; };
 		AB8111522245EFE00061A640 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		AB8111532245EFE00061A640 /* BubbleSort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BubbleSort.mm; sourceTree = "<group>"; };
+		ABA7C842225B1E4D005EB645 /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		ABA7C843225B1E4D005EB645 /* ShellSort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShellSort.mm; sourceTree = "<group>"; };
 		ABF91B0A22435897009D5D50 /* 基本排序算法OC实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基本排序算法OC实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF91B0D22435897009D5D50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABF91B1722435A60009D5D50 /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				AB1448E2224DF2EC00F2BCF3 /* BinarySearch.mm */,
 				AB45DD162251E9F700D7E2F1 /* Quicksort.h */,
 				AB45DD172251E9F700D7E2F1 /* Quicksort.mm */,
+				ABA7C842225B1E4D005EB645 /* ShellSort.h */,
+				ABA7C843225B1E4D005EB645 /* ShellSort.mm */,
 			);
 			path = "基本排序算法OC实现";
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA7C844225B1E4D005EB645 /* ShellSort.mm in Sources */,
 				AB1448E3224DF2EC00F2BCF3 /* BinarySearch.mm in Sources */,
 				ABF91B1922435A60009D5D50 /* InsertSort.mm in Sources */,
 				ABF91B0E22435897009D5D50 /* main.m in Sources */,
