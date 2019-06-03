@@ -27,23 +27,40 @@
 /** 希尔排序 */
 #import "ShellSort.h"
 
+/** 单链表 */
+#import "ListNode.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
-        NSMutableArray *array = [NSMutableArray arrayWithArray:@[@5,@3,@9,@4,@6,@7,@2,@8,@1]];
-        
-//        [InsertSort insert_sort:array];
 
+//        NSMutableArray *array = [NSMutableArray arrayWithArray:@[@5,@3,@9,@4,@6,@7,@2,@8,@1]];
+//        [InsertSort insert_sort:array];
 //        [BubbleSort cocktail_sort:array];
-        
 //        BinarySearch *binarySearch = [BinarySearch new];
 //        int recursiveNum = [binarySearch binarySearchRecursive:array withNum:4 start:0 end:4];
 //        int noRecursiveNum = [binarySearch binarySearchNoRecursive:array withNum:4];
-       
 //        [Quicksort quickSortWithArray:array withLeft:0 andRight:array.count - 1];
+//        [ShellSort shellSort:array];
         
-         [ShellSort shellSort:array];
 
+//单链表
+        ListNode *p = [ListNode addNode:nil andValue:@"1"];
+        ListNode *b = [ListNode addNode:p andValue:@"2"];
+        ListNode *t = [ListNode addNode:b andValue:@"3"];
+        ListNode *q = [ListNode addNode:t andValue:@"4"];
+        ListNode *s = [ListNode addNode:q andValue:@"5"];
+        
+//       NSLog(@"链表长度：%d",[ListNode getNodeLength:s]);
+//        [ListNode deleteNode:s withNum:2];//第三个节点
+//         ListNode *aa = [ListNode addNode:nil andValue:@"插入的新节点"];
+//        [ListNode insertListNode:s newNode:aa Num:3];
+//        [ListNode printReverseNodeData:s];
+       ListNode *reverse = [ListNode reverseNode:s];//逆序后
+      [ListNode printNodeData:reverse];
+        
+        
+        
     }
     return 0;
 }
+
